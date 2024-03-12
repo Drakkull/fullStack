@@ -16,17 +16,7 @@ public class User {
     private String email;
 
 
-    public User(){
 
-    }
-
-
-    public User(Long id, String userName, String name, String email) {
-        this.id = id;
-        this.userName = userName;
-        this.name = name;
-        this.email = email;
-    }
 
     public Long getId() {
         return id;
@@ -60,13 +50,5 @@ public class User {
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
+
 }
